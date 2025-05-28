@@ -23,9 +23,5 @@ public class MissoesService {
         return missoesRepository.findById(id);
     }
 
-    public MissoesModel criarMissao(MissoesModel missao){
-        return missoesRepository.save(missao);
-    }
-
 
 }
